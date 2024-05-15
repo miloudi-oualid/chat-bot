@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  </head>
+  <body >
+    <button class="chatbot-icon">
+      <img src="images/LogoCmc.png" />
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>CMC Bot</h2>
+      </header>
+      <ul class="conversation">
+        <li class="chat bot">
+          <img src="images/LogoCmc.png" />
+          <p>
+            Bonjour 👋<br />Je suis le bot de la CMC<br/>Comment puis-je vous aider?
+          </p>
+        </li>
+        <ul class="chat suggestion">
+          <li value="1">Qu'offre la CMC?</li>
+          <li value="2">Comment s'inscrire?</li>
+          <li value="3">Quelles sont les filliéres disponibles?</li>
+        </ul>
+
+        <li class="chat user">
+        </li>
+        
+        
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Entrer un message..."></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+       </div>
+    </div>
+  </body>
+</html>
